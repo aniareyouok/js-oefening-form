@@ -15,9 +15,9 @@ passwordInput.addEventListener('keyup', checkPassword);
 const passwordError = document.getElementById('password_error');
 
 function checkPassword(e) {
-    if(e.target.value !== '' && e.target.value.length <= 6) {
-        passwordError.textContent = "Het wachtwoord moet minimaal 6 tekens bevatten!"
-    } else {
+    if(e.target.value === '' || e.target.value.length > 6) {
         passwordError.textContent = '';
+    } else {
+        passwordError.textContent = "Het wachtwoord moet minimaal 6 tekens bevatten!";
     }
 }

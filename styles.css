@@ -27,12 +27,23 @@
     margin: 5px 0;
 }
 
+#username:focus {
+    outline: none;
+    background-color: paleturquoise;
+}
+
 #password {
     width: 100%;
     margin: 5px 0;
 }
 
+#password:focus {
+    outline: none;
+    background-color: paleturquoise;
+}
+
 .error_message {
     color: red;
     font-size: small;
+    height: 10px;
 }
