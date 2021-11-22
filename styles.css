@@ -7,26 +7,29 @@
 }
 
 .form_container {
+    width: 300px;
     background-color: turquoise;
     color: whitesmoke;
     border-radius: 2px;
     box-shadow: 2px 2px 5px 0 darkturquoise;
+    padding: 10px;
+    margin: 50px auto;
 }
 
 #sign_up_form {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
 }
 
 #username {
-    margin-left: 20px;
     width: 100%;
+    margin: 5px 0;
 }
 
 #password {
-    margin-left: 20px;
     width: 100%;
+    margin: 5px 0;
 }
 
 .error_message {
